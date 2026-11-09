@@ -84,66 +84,72 @@ Hiện tại - Tổng thời gian: ~55 phút / 1 email (kèm trì hoãn 1-2 ngà
 | Quy trình hiện tại (3–7 bước)             | 1. Đọc slide không hiểu -> 2. Lên Google gõ từ khóa. -> 3. Mở rất nhiều tabs (10-15 tab) video, bài viết -> 4. Đọc lướt từng trang hoặc xem tua qua video để tìm có vị dụ củ thể hoặc hình vẽ -> 5.Đọc kỹ và ghi chép lại. |
 | Bottleneck (bước nào, mất bao nhiêu phút) | 4. Đọc lướt từng trang hoặc xem tua qua video để tìm có vị dụ củ thể hoặc hình vẽ                                                                                                                                          |
 | Impact (nếu không giải thì sao)           | Tốn 4-5 tiếng mỗi tuần chỉ để tìm tài liệu                                                                                                                                                                                 |
-| Success metric (baseline → target)        |                                                                                                                                                                                                                            |
-| Phương án không dùng AI                   |                                                                                                                                                                                                                            |
-| Giả thuyết về AI (nếu có)                 |                                                                                                                                                                                                                            |
-| Cảm nhận nhanh                            | No AI / Rule / Workflow / Agent / Chưa biết                                                                                                                                                                                |
+| Success metric (baseline → target)        | Giảm thời gian tìm kiếm từ khoảng 60 phútđến 15 phút cho mỗi khái niệm. Giúp mức độ tự tin hiểu bài đạt từ 4/5 trở lên.                                                                                                    |
+| Phương án không dùng AI                   | Lập danh sách bookmark các web giải thích trực quan và legit (W3Schools, GeeksforGeeks etc)                                                                                                                                |
+| Giả thuyết về AI (nếu có)                 | AItự động phân tích khái niệm khó và sinh ra phép ẩn dụ đời thường kèm sơ đồ khối Mermaid minh hoạt ngay lập tức                                                                                                           |
+| Cảm nhận nhanh                            | Workflow                                                                                                                                                                                                                   |
 
 Quy trình nháp hiện tại:
 
 ```text
-
+HIỆN TẠI - Tổng thời gian: ~110 phút / 1 khái niệm khó
+[1. Đọc slide bị tắc: 15'] -> [2. Google từ khóa: 5'] -> [3. Mở 15 tab: 15']
+-> [4. Sàng lọc tìm bài có hĩnh vẽ: 45'] <- BOTTLENECK
+-> [5. Đọc hiểu và ghi chép: 30']
 ```
 
 ### Problem Card #3
 
-| Trường                                    | Nội dung                                    |
-| ----------------------------------------- | ------------------------------------------- |
-| Job Story                                 | Khi …, tôi muốn …, để …                     |
-| Actor                                     |                                             |
-| Thời điểm / bối cảnh                      |                                             |
-| Quy trình hiện tại (3–7 bước)             |                                             |
-| Bottleneck (bước nào, mất bao nhiêu phút) |                                             |
-| Impact (nếu không giải thì sao)           |                                             |
-| Success metric (baseline → target)        |                                             |
-| Phương án không dùng AI                   |                                             |
-| Giả thuyết về AI (nếu có)                 |                                             |
-| Cảm nhận nhanh                            | No AI / Rule / Workflow / Agent / Chưa biết |
+| Trường                                    | Nội dung                                                                                                                                                                                                       |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Job Story                                 | Khi vào tối chủ nhật, tôi muốn tổng hợp lại các công việc đã làm, các khoản chi tiêu trong tuần, để đánh giá độ kỷ luật bản thân và lên kế hoạch cho tuần tới.                                                 |
+| Actor                                     | Sinh viên tự lập cần quản lý ngân sách sinh hoạt vàt iến độ học tập.                                                                                                                                           |
+| Thời điểm / bối cảnh                      | Tối Chủ Nhật từ 21h-22h, chuẩn bị cho tuần học mới.                                                                                                                                                            |
+| Quy trình hiện tại (3–7 bước)             | 1. Mở app ngần hàng tra soát biến động số dư -> 2. Nhớ lại và tìm notes có ghi chú về tiền mặt lẻ -> 3. Nhập số liệu vào google sheet -> 4. So sánh với hạn mức chi tiêu tuần -> 5. Ghi chú mục tiêu tuần tới. |
+| Bottleneck (bước nào, mất bao nhiêu phút) | 2. Nhớ lại và gom các khoản chi tiêu nhỏ lẻ, không có hóa đơn, lúc mất 10-20 phút và số tiền có khi không đúng hoặc quên luôn.                                                                                 |
+| Impact (nếu không giải thì sao)           | Tốn 60 phút mỗi tuần chủ nhật. Có tuần hụt 1/4 quỹ chi tiêu tuần mà không rõ vì sao.                                                                                                                           |
+| Success metric (baseline → target)        | Giảm thời gian tổng kết tuần từ 60 phút xuống 20. Độ lệch sổ sách dưới 200.000đ/tuần.                                                                                                                          |
+| Phương án không dùng AI                   | Dùng các app quản lí chia tiêu như MoneyLover, sổ thu chi và tập thối quen ghi chép                                                                                                                            |
+| Giả thuyết về AI (nếu có)                 | AI tự động lưu lại biến động số dư hoặc chụp/dùng thoại để lưu. AI tự động phần loại doanh mục (Ăn uống, học tập, đi lại) và điền vào bảng                                                                     |
+| Cảm nhận nhanh                            | Rule hoặc workflow                                                                                                                                                                                             |
 
 Quy trình nháp hiện tại:
 
 ```text
-
+HIỆN TẠI - Tổng thời gian: ~60 phút mỗi tối Chủ nhật
+[1. Mở app ngân hàng tra soát] -> [2. Nhớ lại các khoản tiền mặt lẻ] <- BOTTLENECK
+-> [3. Nhập Google Sheet] -> [4. So sánh hạn mức] -> [5. Đặt mục tiêu tuần mới]
 ```
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: Problem Card #1
+- Vì sao: Đây là vấn đề có nỗi đau đến từ tâm lý (viết sai chính tả, viết nhầm văn phòng, giải trình lủng củng) lẫn hậu quả thực tế (bị trễ hạn, mất điểm). Quy trình rất rõ ràng và hoàn toàn có thể đo lường được hiệu quả tiết kiệm thời gian.
+- Câu hỏi muốn nhóm phản biện: "Liệu việc dùng các template có sẵn ở Gmail hoặc các bài viết trên mạng đã đủ để giải quyết bài toán này chưa? Sự can thiệp của AI mang lại giá trị khác biệt cốt lõi nào khi ngữ cảnh giải trình thay đổi?"
 
 ### AI đã phản biện card thế nào
 
-| Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
-| ------------------ | ------- | --------- |
-|                    |         |           |
+| Điểm yếu AI chỉ ra                                                                                                                                  | Đồng ý? | Đã sửa gì                                                                                                                                                                                             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Khái niệm "viết email lâu" là do tâm lý trì hoãn chứ không hẳn do thao tác viết tốn thời gian. Nếu không đo thời gian trì hoãn thì metric sẽ bị ảo. | Đồng ý  | Bổ sung vào Metrix: Ngoài việc đo thười gian soạn từ 15-20' xuống dưới 5' thì email phải được gửi trong vòng 30 phút sau khi sự việc phát sinh để triệt tiêu việc hoãn tới giờ hoặc ngày.             |
+| Khái niệm "viết email lâu" là do tâm lý trì hoãn chứ không hẳn do thao tác viết tốn thời gian. Nếu không đo thời gian trì hoãn thì metric sẽ bị ảo. | Đồng ý  | Workflow tương lai được làm rõ: Hệ thống kiểm tra có rule rằng buộc (giáo viên, môn học) kết hộp gợi ý khung nội dung nháp, và mình là người kiểm duyệt chứ không phải đi chat qua lại tốn thêm bước. |
 
 ---
 
 ## 4. Tôi đã tham gia phần nào (CP3 → CP7)
 
-| Hoạt động                  | Tôi đã làm gì?         | Kết quả / ảnh hưởng tới bài nhóm |
-| -------------------------- | ---------------------- | -------------------------------- |
-| Pitch Problem Card         |                        |                                  |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:    |                                  |
-| Nhận phản biện             | Câu hỏi tôi nhận được: | Tôi đã sửa gì:                   |
-| Gom cluster / cây OST      |                        |                                  |
-| Chọn candidate problem     |                        |                                  |
-| Kiểm chứng / research      |                        |                                  |
-| Quy trình nhóm             |                        |                                  |
-| Problem Statement          |                        |                                  |
-| Mức can thiệp AI           |                        |                                  |
-| Quyết định                 |                        |                                  |
+| Hoạt động                  | Tôi đã làm gì?                                                                                                                                                                                                                                                                                                                            | Kết quả / ảnh hưởng tới bài nhóm                                                                                                                                |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Pitch Problem Card         | Trình bày Problem Card #1 (Email giải trình giảng viên). Nêu rõ điểm nghẽn ở khâu đắn đo kính ngữ và sự trì hoãn tâm lý 2–6 tiếng.                                                                                                                                                                                                        | Nhóm nhận thấy đây là nỗi đau chung của mọi thành viên khi giao tiếp học thuật/công việc.                                                                       |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt:<br>Hỏi Nam (Card soạn email phản hồi): "Mỗi ngày nhận 3–8 email, nhưng có phải email nào cũng cần AI không? Làm sao phân biệt email đơn giản và email khó?"<br>Hỏi Diện: "Khách hàng nhắn tin trên Zalo cá nhân rất lộn xộn, nếu dùng tool gom lại thì có giải quyết được vấn đề bảo mật thông tin khách hàng không?" | Giúp Nam định hình rõ tín hiệu phản bác: Loại bỏ email đơn giản ra khỏi phạm vi, chỉ tập trung vào email khó.<br>Giúp Diện thấy rủi ro bảo mật ở bài toán Zalo. |
+| Nhận phản biện             | Câu hỏi tôi nhận được:                                                                                                                                                                                                                                                                                                                    | Tôi đã sửa gì:                                                                                                                                                  |
+| Gom cluster / cây OST      | Tham gia phân loại 3 candidate vào 3 cụm (Cluster A: Giao tiếp & Soạn thảo; Cluster B: Lịch trình & Thời gian; Cluster C: Xử lý thông tin). Cùng nhóm xác định Outcome duy nhất cho cây OST.                                                                                                                                              | Đưa candidate của Nam và của tôi về chung Cluster A, làm tiền đề để chốt bài toán tối ưu nhất cho nhóm.                                                         |
+| Chọn candidate problem     |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
+| Kiểm chứng / research      |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
+| Quy trình nhóm             |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
+| Problem Statement          |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
+| Mức can thiệp AI           |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
+| Quyết định                 |                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                 |
 
 ---
 
