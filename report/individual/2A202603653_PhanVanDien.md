@@ -10,7 +10,7 @@
 - MSSV:2A202603653
 - Email trường (không bắt buộc, repo có thể để public):26ai.dienpv@vinuni.edu.vn
 - Tên nhóm: BrowMice
-- Link repo nhóm:
+- Link repo nhóm:https://github.com/chrislethedimsum/K5-L3A-Day02-BrownMice-DiscoveryProblemFraming
 
 ---
 
@@ -96,10 +96,10 @@ Quy trình nháp hiện tại:
 | Thời điểm / bối cảnh | Cuối ngày, cuối tuần hoặc cuối tháng; khi quản lý yêu cầu báo cáo đột xuất; khi cần đánh giá hiệu suất nhân viên; khi cần xác định các loại sự cố xuất hiện thường xuyên.|
 | Quy trình hiện tại (3–7 bước) | 1. thu thập thông tin từ nhật ký công việc , excel, ticket hoặc các kênh tiếp nhận sự cố 2.kiểm tra và chuẩn hóa dữ liệu 3. phân loại sự cố theo loại thiết bị , phòng ban và mức độ ưu tiên 4.tổng hợp số lượng yêu cầu và thời gian xử lý 5 tính toán các chỉ số hiệu suất 6.tạo bảng biểu, biểu đồ và báo cáo 7.gửi báo cáo cho quản lý|
 | Bottleneck (bước nào, mất bao nhiêu phút) | - dữ liệu nằm ở nhiều nguồn khác nhau - phải tổng hợp excel thủ công-dễ xảy ra sai sots khi nhập liệu - khó xác định xu hướng sự cố - báo cáo chủ yếu mô tả những gì đa|
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
+| Impact (nếu không giải thì sao) | - mất nhiều thời gian làm báo cáo - quản lý không có số liệu cập nhật kịp thời - khó đánh giá chính xác hiệu suất nhân viên - không nhận diện được các sự cố lặp lại - khó phân bố nhân lực và ngân sách IT hợp lý|
+| Success metric (baseline → target) | - thời gian hoàn thành báo cáo -độ chính xác của dữ liệu báo cáo - tỷ lệ báo cáo được tự động hóa - thời gian xử lý sự cố trung bình theo từng loại - khả năng phát hiện xu hướng và sự cố lặp lại -độ chính xác của mô hình dự báo nếu triển khai AI|
+| Phương án không dùng AI | -xây dựng dashboard bằng django , pandas và chart.js - tựđộng thu thập dữ liệu từ hệ thống ticket - chuẩn hóa và tính toán  KPI tự động - cung cấp báo cáo theo ngayf, tuần tháng. - xuất báo cáo excel/pdf|
+| Giả thuyết về AI (nếu có) | -machine learning có thể dự báo số lượng ticket trong tương lai- time series forecasting có thể dự báo khối lượng công việc theo ngày hoặc tuần . Anomaly Detection có thể phát hiện sự gia tăng bất thường của một loại sự cố-LLM có thể tạo báo cáo bằng ngôn ngữ tự nhiên từ dữ liệu thống kế - AI có thể phân tích mối quan hệ giữa loại thiết bị , phòng ban và tần suất sự cố.|
 | Cảm nhận nhanh | Đây là vấn đề có thể bắt đầu bằng dashboard thống kê, sau đó phát triển thành hệ thống dự báo, phát hiện bất thường và phân tích nguyên nhân sự cố. |
 
 Quy trình nháp hiện tại:
@@ -110,15 +110,15 @@ Quy trình nháp hiện tại:
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: Tiếp nhận yêu cầu hỗ trợ IT
+- Vì sao: Đây là vấn đề xuất hiện thường xuyên trong hoạt động IT Support. Yêu cầu đến từ nhiều kênh khác nhau khiến thông tin phân tán, khó theo dõi, dễ bỏ sót và không có cơ chế đánh giá mức độ ưu tiên rõ ràng. Giải pháp có khả năng áp dụng thực tế trong doanh nghiệp và môi trường bệnh viện.
+- Câu hỏi muốn nhóm phản biện: Nếu nhân viên vẫn quen gửi yêu cầu qua Zalo hoặc gọi điện trực tiếp cho IT Support thay vì tạo ticket trên hệ thống, làm thế nào để đảm bảo tất cả sự cố đều được ghi nhận đầy đủ mà không làm tăng thao tác cho người dùng?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Chưa xác định rõ cách tiếp nhận yêu cầu khi người dùng tiếp tục sử dụng nhiều kênh khác nhau.| Có| Bổ sung phương án cho phép IT Support tạo ticket thay người dùng khi tiếp nhận yêu cầu qua điện thoại, Zalo hoặc trực tiếp.|
 
 ---
 
@@ -126,16 +126,16 @@ Quy trình nháp hiện tại:
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | tôi đã pitch 1 problem nổi bật nhất trong 5 vấnđề nêu trên| Giúp nhóm hiểu rõ vấn đề yêu cầu hỗ trợ bị phân tán qua nhiều kênh và khó kiểm soát tiến độ.|
+| Phản biện bài của bạn khác | tôi đã đặt câuhỏi:Nếu AI tạo ra email dựa trên những thông tin người dùng cung cấp, trong trường hợp email có nội dung nhạy cảm hoặc liên quan đến công việc nội bộ công ty, hệ thống sẽ xử lý và bảo vệ dữ liệu cá nhân cũng như dữ liệu doanh nghiệp như thế nào? | Giúp người đưa ra ý tưởng chú ý hơn đến bảo mật và quyền kiểm soát dữ liệu.|
+| Nhận phản biện | Tôi tiếp nhận các câu hỏi phản biện về tính khả thi, khả năng người dùng thay đổi thói quen và cách xử lý yêu cầu từ nhiều kênh. | Nhận ra giải pháp không chỉ cần có chức năng tạo ticket mà còn phải giảm thao tác cho người dùng và đảm bảo không bỏ sót yêu cầu. |
+| Gom cluster / cây OST | Tham gia nhóm các vấn đề theo chủ đề IT Support, quản lý tài sản, báo cáo công việc và vận hành hệ thống.| Giúp nhóm nhìn thấy mối liên hệ giữa các vấn đề và xác định những nhu cầu có thể phát triển thành giải pháp.|
+| Chọn candidate problem | Tham gia đánh giá các Candidate dựa trên mức độ nghiêm trọng, tần suất xuất hiện và khả năng triển khai.| Giúp nhóm xác định vấn đề cần ưu tiên giải quyết thay vì lựa chọn giải pháp chỉ vì có công nghệ AI.|
+| Kiểm chứng / research | Tìm hiểu quy trình tiếp nhận yêu cầu IT Support, hệ thống ticket, SLA và khả năng ứng dụng NLP/LLM trong phân loại sự cố.| Làm rõ phần nào có thể giải quyết bằng quy tắc thông thường và phần nào thực sự cần AI.|
+| Quy trình nhóm | Tham gia phân tích quy trình từ lúc nhân viên báo sự cố đến khi IT Support xử lý và xác nhận hoàn thành.| Xác định các bước dễ phát sinh chậm trễ, đặc biệt là tiếp nhận, ghi nhận và phân loại yêu cầu.|
+| Problem Statement | Tham gia xác định Actor, Bottleneck, Impact, Success Metric và Boundary cho bài toán của nhóm.| Giúp Problem Statement có phạm vi cụ thể, có chỉ số đánh giá và giới hạn rõ ràng cho AI.|
+| Mức can thiệp AI | Phân tích và đề xuất Workflow kết hợp Rule-based và AI, trong đó AI hỗ trợ phân loại và trích xuất thông tin sự cố.| Tránh sử dụng Agent tự chủ khi chưa cần thiết; giữ quyền xác nhận mức ưu tiên và xử lý cho nhân viên IT.|
+| Quyết định | Tham gia đánh giá Value, Usability, Feasibility và Viability để đề xuất triển khai thử nghiệm MVP.| Giúp nhóm xác định điều kiện cần kiểm chứng trước khi mở rộng hệ thống.|
 
 ---
 
@@ -143,12 +143,12 @@ Quy trình nháp hiện tại:
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Không| Không| Không| Tự xác định các vấn đề xuất phát từ kinh nghiệm IT Support.|
+| CP2 Problem Card | Không| Không| Không| Tự xây dựng 3 Problem Card dựa trên những vấn đề thực tế.|
+| CP4 Research | Sử dụng AI để tìm hiểu mô hình IT Ticketing, SLA, NLP và ứng dụng LLM trong tiếp nhận sự cố.| Gợi ý các hướng nghiên cứu, phương pháp phân loại sự cố và các chỉ số đánh giá hiệu quả.| Một số đề xuất còn mang tính lý thuyết, chưa phản ánh đầy đủ quy trình thực tế tại doanh nghiệp và bệnh viện.| Chọn lọc các chức năng có khả năng triển khai thực tế, ưu tiên tiếp nhận ticket, phân loại sự cố và theo dõi SLA.|
+| CP5 Quy trình | Sử dụng AI để phân tích và đề xuất quy trình tiếp nhận, phân loại, xử lý và đóng ticket.| Giúp phát hiện các bước có thể tự động hóa và xác định điểm cần nhân viên IT kiểm tra.| AI có thể bỏ qua tình huống người dùng báo lỗi qua điện thoại hoặc Zalo thay vì hệ thống.| Bổ sung cơ chế IT Support tạo ticket thay người dùng để tránh bỏ sót yêu cầu.|
+| CP5–6 Problem Statement | Sử dụng AI để rà soát Actor, Bottleneck, Impact và Success Metric.| Giúp làm rõ phạm vi bài toán và đề xuất các chỉ số đo lường cụ thể.| Một số chỉ số chưa có dữ liệu baseline thực tế để xác nhận.| Chỉ giữ các chỉ số có thể thu thập được từ hệ thống ticket và yêu cầu đo baseline trước khi đánh giá.|
+| CP6 Mức can thiệp / quyết định | Không| Không| Không| Tự đánh giá mức độ cần thiết của AI, rủi ro và khả năng triển khai để lựa chọn phương án phù hợp.|
 
 ---
 
@@ -157,20 +157,22 @@ Quy trình nháp hiện tại:
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
-
+Tôi học được những vấn đề nỗi đau của các bạn trong nhóm 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
-
+Nhóm luôn tìm hiểu vấn đề trước khi đưa ra giải pháp 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
-
+Tôi không bị đổi ý phản biện của mình , sau những lần phản biện ý tưởng của tôi càng thêm chặt chẽ 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
-
+Kết quả kiểm chúng không làm tôi thay đổi quan điểm nhận định của mình  
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Điều khó nhất đối với tôi là xác định chính xác bottleneck và phân biệt giữa nguyên nhân gốc rễ với những biểu hiện của vấn đề. Ban đầu, tôi nhận thấy nhân viên gửi yêu cầu hỗ trợ IT qua nhiều kênh như Zalo, điện thoại, SMS hoặc trực tiếp, nhưng cần phân tích sâu hơn để xác định việc phân tán thông tin ảnh hưởng như thế nào đến thời gian phản hồi và xử lý sự cố. Ngoài ra, tôi cũng gặp khó khăn khi lựa chọn các chỉ số đo lường phù hợp để đánh giá mức độ cải thiện, chẳng hạn như thời gian phản hồi trung bình, thời gian xử lý và tỷ lệ bỏ sót yêu cầu. Tôi nhận ra rằng Problem Statement cần cụ thể, có thể đo lường và giới hạn rõ phạm vi, thay vì chỉ mô tả một vấn đề chung chung.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Nếu làm lại, tôi sẽ bổ sung thêm các luận điểm và luận cứ thực tế để chứng minh mức độ nghiêm trọng của vấn đề, thay vì chủ yếu dựa trên nhận định cá nhân. Tôi sẽ phản biện nhóm mạnh hơn ở việc xác định nguyên nhân gốc rễ, tính khả thi của giải pháp và vai trò thực sự của AI trong quy trình. Đặc biệt, tôi sẽ đặt câu hỏi liệu nhân viên có sẵn sàng thay đổi thói quen từ việc liên hệ IT qua Zalo, điện thoại sang sử dụng hệ thống ticket hay không. Tôi cũng sẽ yêu cầu nhóm làm rõ cách xử lý những yêu cầu vẫn đến từ các kênh bên ngoài hệ thống, tránh tình trạng triển khai phần mềm nhưng vẫn bỏ sót yêu cầu hỗ trợ. 
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
----
+Vấn đề nhóm tôi lựa chọn là việc soạn thảo email mất thời gian, đặc biệt khi người dùng phải xác định nội dung, lựa chọn cách diễn đạt và điều chỉnh giọng văn sao cho phù hợp với người nhận và mục đích giao tiếp. Quy trình giải quyết bắt đầu từ việc người dùng cung cấp mục đích, nội dung chính và thông tin cần truyền đạt, sau đó AI hỗ trợ tạo bản nháp email để người dùng xem xét và chỉnh sửa. Các metric có thể sử dụng để đánh giá hiệu quả gồm thời gian hoàn thành một email, mức độ hài lòng của người dùng, số lần chỉnh sửa và chất lượng nội dung email. Boundary của giải pháp là tập trung vào việc hỗ trợ soạn thảo và cải thiện nội dung email, không tự ý gửi email hoặc thay người dùng đưa ra các quyết định quan trọng. AI sẽ can thiệp vào bước phân tích yêu cầu, đề xuất cấu trúc, tạo nội dung và điều chỉnh giọng văn theo ngữ cảnh. Người dùng vẫn cần kiểm tra tính chính xác, thông tin nhạy cảm và nội dung cuối cùng trước khi sử dụng. Từ đó, nhóm hướng đến xây dựng một giải pháp AI hỗ trợ soạn thảo email và đánh giá tính hiệu quả, khả thi cũng như mức độ hữu ích của giải pháp.
 
 ## 7. Tài liệu tham khảo
 

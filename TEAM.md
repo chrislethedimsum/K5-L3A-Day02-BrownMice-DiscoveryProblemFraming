@@ -25,32 +25,37 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
+| CP3 — Hội tụ nhóm | | x| Cluster, cây OST, bảng chấm điểm |
 | CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
 | CP4 — Research | | | Bảng research có link |
 | CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP6 — Mức can thiệp + Problem Statement v1 | x| | Ma trận, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | X| | 4 rủi ro + Go/Not Yet/No-Go |
 
 ## Cá nhân
 
 Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `HoVaTen-MSSV`.
 
 ### HoVaTen-MSSV
-
+Phan Văn Diện - 2A202603653
 **Phần việc phụ trách:**
 
--
+hỗ trợ - cp3
+làm chính - cp6
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
--
+
+- lên ý tưởng đóng góp 3 problem và chọn 1 problem pitch trước nhóm và hoàn thành các mục trong group_report.md
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
+6. Mức can thiệp AI (CP6)
+7. Problem Statement v1 + tiêu chí đánh giá (CP6)
+8. Quyết định (CP6)
 -
 
 **Điều mình học được từ phần nhóm:**
-
+- tinh thần đoàn kết , hiểu được ý của từng người 
 -
