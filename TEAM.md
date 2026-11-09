@@ -60,3 +60,22 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Điều mình học được từ phần nhóm:**
   - Nhận thức rõ sự khác biệt giữa "bài toán có nỗi đau lớn nhưng tần suất thấp" và "bài toán lặp lại hàng ngày có tần suất cao".
   - Kỷ luật tách bạch giữa Problem và Solution, kiên quyết loại bỏ tư duy "nhảy ngay vào làm chatbot" khi chưa thấu hiểu quy trình gốc.
+    
+### PhanVanDien-2A202603653
+
+**Phần việc phụ trách:** Thành viên, phản biện kỹ thuật, phụ trách chính **CP6** (Mức can thiệp AI, Problem Statement v1, Đánh giá 4 rủi ro sản phẩm & Quyết định cuối cùng).
+
+- **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):  
+  - Đóng góp 3 Candidate Problems (#7, #8, #9) thuộc Cluster B (Vận hành & Hỗ trợ kỹ thuật IT); mang góc nhìn thực tế về quy trình hỗ trợ doanh nghiệp vào buổi thảo luận nhóm.
+  - Đóng vai trò phản biện tích cực nhất trong phiên pitch CP3: đặt 6 câu hỏi sắc bén cho Phúc và Nam xoay quanh rủi ro bảo mật dữ liệu doanh nghiệp, nguy cơ AI bịa đặt thông tin và khả năng kiểm soát khi AI phân loại sai độ ưu tiên.
+  - Chủ trì xây dựng toàn bộ nội dung **CP6**: Xác định vị trí bài toán trên ma trận độ mơ hồ × độ phức tạp, so sánh 4 mức can thiệp để chốt mức Workflow; hoàn thiện AI Canvas rút gọn và trả lời 2 câu hỏi thiết kế của Google PAIR (Augment vs. Automate; phân tích rủi ro kiểu sai tệ hơn).
+  - Soạn thảo Problem Statement v1, thiết lập 3 tiêu chí đánh giá đầu ra (Eval), phân tích ma trận 4 rủi ro (Value, Usability, Feasibility, Viability), đề xuất quyết định **Go** kèm kịch bản pilot 2 tuần và 4 ngưỡng dừng (Stop threshold) an toàn.
+
+- **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):  
+  - Các câu hỏi phản biện tại bảng 2.1 (Pitch) trong `report/team/group_report.md`.
+  - Toàn bộ Mục 6 (Mức can thiệp AI), Mục 7 (Problem Statement v1 & tiêu chí eval), Mục 8 (Bốn rủi ro & Quyết định) trong `report/team/group_report.md`.
+  - File báo cáo cá nhân `report/individual/2A202603653_PhanVanDien.md` và các commit tương ứng trên repo nhóm.
+
+- **Điều mình học được từ phần nhóm:**  
+  - Nhận thức rõ ràng rằng cấp độ AI càng cao (Agent tự trị) không đồng nghĩa với giải pháp càng tốt. Với bài toán giao tiếp email đại diện cho uy tín cá nhân và tổ chức, cấp độ Workflow có con người kiểm duyệt (Human-in-the-loop) mới là giải pháp tối ưu và an toàn nhất.
+  - Học được phương pháp luận thiết kế lấy con người làm trung tâm qua 2 câu hỏi của Google PAIR và tư duy sản phẩm của Marty Cagan: Luôn phải xác định "kiểu sai nào tệ hơn" và đặt ra "ngưỡng dừng" cụ thể trước khi bắt tay vào triển khai pilot.
